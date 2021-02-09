@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  align-self: flex-end;
+}
+
+header > nav > ul {
+  align-content: center;
+  border: solid black 2px;
+  padding-inline-start: 10px;
+}
+
+header > nav > ul > li {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px 10px 10px 0px;
+}
